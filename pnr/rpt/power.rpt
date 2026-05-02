@@ -1,0 +1,192 @@
+
+Power Net Detected:
+        Voltage	    Name
+             0V	    VSS
+           0.9V	    VDD
+Using Power View: worst_1v0.
+Load RC corner of view worst_1v0
+
+Begin Power Analysis
+
+             0V	    VSS
+           0.9V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1598.70MB/2912.41MB/1764.89MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+clk(111.406MHz) CK: assigning clock clk to net clk
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1600.81MB/2912.41MB/1764.89MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1600.81MB/2912.41MB/1764.89MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2026-Apr-25 17:29:58 (2026-Apr-25 21:29:58 GMT)
+2026-Apr-25 17:29:58 (2026-Apr-25 21:29:58 GMT): 10%
+2026-Apr-25 17:29:58 (2026-Apr-25 21:29:58 GMT): 20%
+2026-Apr-25 17:29:58 (2026-Apr-25 21:29:58 GMT): 30%
+2026-Apr-25 17:29:58 (2026-Apr-25 21:29:58 GMT): 40%
+2026-Apr-25 17:29:58 (2026-Apr-25 21:29:58 GMT): 50%
+2026-Apr-25 17:29:58 (2026-Apr-25 21:29:58 GMT): 60%
+2026-Apr-25 17:29:58 (2026-Apr-25 21:29:58 GMT): 70%
+2026-Apr-25 17:29:58 (2026-Apr-25 21:29:58 GMT): 80%
+2026-Apr-25 17:29:58 (2026-Apr-25 21:29:58 GMT): 90%
+
+Finished Levelizing
+2026-Apr-25 17:29:58 (2026-Apr-25 21:29:58 GMT)
+
+Starting Activity Propagation
+2026-Apr-25 17:29:58 (2026-Apr-25 21:29:58 GMT)
+** INFO:  (VOLTUS_POWR-1356): No default input activity has been set. Defaulting to 0.2.
+Use 'set_default_switching_activity -input_activity' command to change the default activity value.
+
+2026-Apr-25 17:29:59 (2026-Apr-25 21:29:59 GMT): 10%
+2026-Apr-25 17:29:59 (2026-Apr-25 21:29:59 GMT): 20%
+
+Finished Activity Propagation
+2026-Apr-25 17:30:00 (2026-Apr-25 21:30:00 GMT)
+Ended Processing Signal Activity: (cpu=0:00:01, real=0:00:01, mem(process/total/peak)=1603.01MB/2912.41MB/1764.89MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 2
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+CellName                                  Missing Table(s)
+TIEHI                                     internal power, 
+TIELO                                     internal power, 
+
+
+
+Starting Calculating power
+2026-Apr-25 17:30:00 (2026-Apr-25 21:30:00 GMT)
+ ... Calculating switching power
+2026-Apr-25 17:30:00 (2026-Apr-25 21:30:00 GMT): 10%
+2026-Apr-25 17:30:00 (2026-Apr-25 21:30:00 GMT): 20%
+2026-Apr-25 17:30:00 (2026-Apr-25 21:30:00 GMT): 30%
+2026-Apr-25 17:30:00 (2026-Apr-25 21:30:00 GMT): 40%
+2026-Apr-25 17:30:00 (2026-Apr-25 21:30:00 GMT): 50%
+ ... Calculating internal and leakage power
+2026-Apr-25 17:30:00 (2026-Apr-25 21:30:00 GMT): 60%
+2026-Apr-25 17:30:01 (2026-Apr-25 21:30:01 GMT): 70%
+2026-Apr-25 17:30:01 (2026-Apr-25 21:30:01 GMT): 80%
+2026-Apr-25 17:30:02 (2026-Apr-25 21:30:02 GMT): 90%
+
+Finished Calculating power
+2026-Apr-25 17:30:02 (2026-Apr-25 21:30:02 GMT)
+Ended Power Computation: (cpu=0:00:02, real=0:00:02, mem(process/total/peak)=1603.70MB/2912.41MB/1764.89MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1603.70MB/2912.41MB/1764.89MB)
+
+Ended Power Analysis: (cpu=0:00:04, real=0:00:04, mem(process/total/peak)=1603.70MB/2912.41MB/1764.89MB)
+
+Begin Boundary Leakage Calculation
+Ended Boundary Leakage Calculation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=1603.70MB/2912.41MB/1764.89MB)
+Begin Static Power Report Generation
+*----------------------------------------------------------------------------------------
+*	Innovus 20.10-p004_1 (64bit) 05/07/2020 20:02 (Linux 2.6.32-431.11.2.el6.x86_64)
+*	
+*
+* 	Date & Time:	2026-Apr-25 17:30:02 (2026-Apr-25 21:30:02 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: tile
+*
+*	Liberty Libraries used:
+*	        worst_1v0: lib/slow_vdd1v0_basicCells.lib
+*
+*	Parasitic Files used:
+*
+*       Power View : worst_1v0
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: 0.200000
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs
+*
+*       report_power
+*
+-----------------------------------------------------------------------------------------
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        1.47573789 	   67.8302%
+Total Switching Power:       0.69787007 	   32.0766%
+Total Leakage Power:         0.00202875 	    0.0932%
+Total Power:                 2.17563672
+-----------------------------------------------------------------------------------------
+
+
+Group                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+Sequential                         1.137      0.1383   0.0005335       1.276       58.65
+Macro                                  0           0           0           0           0
+IO                                     0           0   3.168e-08   3.168e-08   1.456e-06
+Combinational                     0.3385      0.5596    0.001495      0.8996       41.35
+Clock (Combinational)                  0           0           0           0           0
+Clock (Sequential)                     0           0           0           0           0
+-----------------------------------------------------------------------------------------
+Total                              1.476      0.6979    0.002029       2.176         100
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+VDD                       0.9      1.476      0.6979    0.002029       2.176         100
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+*              Highest Average Power:     dmem/FE_OFC4504_n3092 (CLKBUFX16):         0.001671
+*              Highest Leakage Power:     imem/FE_OFC1405_n9700 (CLKBUFX20):        6.252e-07
+*                Total Cap:      1.10418e-10 F
+*                Total instances in design: 40219
+*                Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+*                Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+ 
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=1620.75MB/2922.91MB/1764.89MB)
+

@@ -1,0 +1,313 @@
+Switching SI Aware to true by default in postroute mode   
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+#num needed restored net=0
+#need_extraction net=0 (total=41244)
+#WARNING (NRDB-976) The TRACK STEP 0.1900 for preferred direction tracks is smaller than the PITCH 0.2000 for LAYER Metal3. This will cause routability problems for NanoRoute.
+#WARNING (NRDB-976) The TRACK STEP 0.1900 for preferred direction tracks is smaller than the PITCH 0.2000 for LAYER Metal5. This will cause routability problems for NanoRoute.
+#Start routing data preparation on Sat Apr 25 17:29:03 2026
+#
+#Minimum voltage of a net in the design = 0.000.
+#Maximum voltage of a net in the design = 1.100.
+#Voltage range [0.000 - 1.100] has 41242 nets.
+#Voltage range [0.900 - 1.100] has 1 net.
+#Voltage range [0.000 - 0.000] has 1 net.
+# Metal1       H   Track-Pitch = 0.19000    Line-2-Via Pitch = 0.12500
+# Metal2       V   Track-Pitch = 0.20000    Line-2-Via Pitch = 0.14000
+# Metal3       H   Track-Pitch = 0.19000    Line-2-Via Pitch = 0.14000
+# Metal4       V   Track-Pitch = 0.20000    Line-2-Via Pitch = 0.14000
+# Metal5       H   Track-Pitch = 0.19000    Line-2-Via Pitch = 0.14000
+# Metal6       V   Track-Pitch = 0.20000    Line-2-Via Pitch = 0.17000
+# Metal7       H   Track-Pitch = 0.28500    Line-2-Via Pitch = 0.44500
+#WARNING (NRAG-44) Track pitch is too small compared with line-2-via pitch.
+# Metal8       V   Track-Pitch = 0.20000    Line-2-Via Pitch = 0.38500
+#WARNING (NRAG-44) Track pitch is too small compared with line-2-via pitch.
+# Metal9       H   Track-Pitch = 0.38000    Line-2-Via Pitch = 0.38500
+#WARNING (NRAG-44) Track pitch is too small compared with line-2-via pitch.
+#Monitoring time of adding inner blkg by smac
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1492.57 (MB), peak = 1814.80 (MB)
+#Regenerating Ggrids automatically.
+#Auto generating G-grids with size=15 tracks, using layer Metal3's pitch = 0.19000.
+#Using automatically generated G-grids.
+#Done routing data preparation.
+#cpu time = 00:00:01, elapsed time = 00:00:01, memory = 1495.43 (MB), peak = 1814.80 (MB)
+#Extract in post route mode
+#
+#Start tQuantus RC extraction...
+#Start building rc corner(s)...
+#Number of RC Corner = 2
+#Corner rc_fast /opt/cadence/gpdk045/gpdk045_v_6_0/qrc/rcbest/qrcTechFile 25.000000 (real) 
+#Corner rc_slow /opt/cadence/gpdk045/gpdk045_v_6_0/qrc/rcworst/qrcTechFile 25.000000 (real) 
+#Layer metal10_conn does not exist in nanoroute.
+#Layer metal11_conn does not exist in nanoroute.
+#metal1_conn -> Metal1 (1)
+#metal2_conn -> Metal2 (2)
+#metal3_conn -> Metal3 (3)
+#metal4_conn -> Metal4 (4)
+#metal5_conn -> Metal5 (5)
+#metal6_conn -> Metal6 (6)
+#metal7_conn -> Metal7 (7)
+#metal8_conn -> Metal8 (8)
+#metal9_conn -> Metal9 (9)
+#Layer metal10_conn does not exist in nanoroute.
+#Layer metal11_conn does not exist in nanoroute.
+#SADV_On
+# Corner(s) : 
+#rc_fast [25.00] 
+#rc_slow [25.00]
+# Corner id: 0
+# Layout Scale: 1.000000
+# Has Metal Fill model: yes
+# Temperature was set
+# Temperature : 25.000000
+# Ref. Temp   : 25.000000
+# Corner id: 1
+# Layout Scale: 1.000000
+# Has Metal Fill model: yes
+# Temperature was set
+# Temperature : 25.000000
+# Ref. Temp   : 25.000000
+#SADV_Off
+#
+#layer[2] tech width 140 != ict width 160.0
+#
+#layer[3] tech width 140 != ict width 160.0
+#
+#layer[4] tech width 140 != ict width 160.0
+#
+#layer[5] tech width 140 != ict width 160.0
+#
+#layer[6] tech width 140 != ict width 160.0
+#
+#layer[7] tech width 140 != ict width 160.0
+#
+#layer[8] tech width 140 != ict width 160.0
+#
+#layer[9] tech width 140 != ict width 160.0
+#total pattern=286 [22, 1584]
+#Reading previously stored rc_model file ( rc_model.bin ) ...
+#found CAPMODEL /opt/cadence/gpdk045/gpdk045_v_6_0/qrc/rcbest/qrcTechFile
+#found CAPMODEL /opt/cadence/gpdk045/gpdk045_v_6_0/qrc/rcworst/qrcTechFile
+#found RESMODEL /opt/cadence/gpdk045/gpdk045_v_6_0/qrc/rcbest/qrcTechFile 25.000000 
+#found RESMODEL /opt/cadence/gpdk045/gpdk045_v_6_0/qrc/rcworst/qrcTechFile 25.000000 
+#number model r/c [2,2] [22,1584] read
+#0 rcmodel(s) requires rebuild
+#Build RC corners: cpu time = 00:00:01, elapsed time = 00:00:01, memory = 1523.20 (MB), peak = 1814.80 (MB)
+#Start building rc corner(s)...
+#Number of RC Corner = 2
+#Corner rc_fast /opt/cadence/gpdk045/gpdk045_v_6_0/qrc/rcbest/qrcTechFile 25.000000 (real) 
+#Corner rc_slow /opt/cadence/gpdk045/gpdk045_v_6_0/qrc/rcworst/qrcTechFile 25.000000 (real) 
+#Layer metal10_conn does not exist in nanoroute.
+#Layer metal11_conn does not exist in nanoroute.
+#metal1_conn -> Metal1 (1)
+#metal2_conn -> Metal2 (2)
+#metal3_conn -> Metal3 (3)
+#metal4_conn -> Metal4 (4)
+#metal5_conn -> Metal5 (5)
+#metal6_conn -> Metal6 (6)
+#metal7_conn -> Metal7 (7)
+#metal8_conn -> Metal8 (8)
+#metal9_conn -> Metal9 (9)
+#Layer metal10_conn does not exist in nanoroute.
+#Layer metal11_conn does not exist in nanoroute.
+#SADV_On
+# Corner(s) : 
+#rc_fast [25.00] 
+#rc_slow [25.00]
+# Corner id: 0
+# Layout Scale: 1.000000
+# Has Metal Fill model: yes
+# Temperature was set
+# Temperature : 25.000000
+# Ref. Temp   : 25.000000
+# Corner id: 1
+# Layout Scale: 1.000000
+# Has Metal Fill model: yes
+# Temperature was set
+# Temperature : 25.000000
+# Ref. Temp   : 25.000000
+#SADV_Off
+#
+#layer[2] tech width 140 != ict width 160.0
+#
+#layer[3] tech width 140 != ict width 160.0
+#
+#layer[4] tech width 140 != ict width 160.0
+#
+#layer[5] tech width 140 != ict width 160.0
+#
+#layer[6] tech width 140 != ict width 160.0
+#
+#layer[7] tech width 140 != ict width 160.0
+#
+#layer[8] tech width 140 != ict width 160.0
+#
+#layer[9] tech width 140 != ict width 160.0
+#total pattern=286 [22, 1584]
+#Reading previously stored rc_model file ( rc_model.bin ) ...
+#found CAPMODEL /opt/cadence/gpdk045/gpdk045_v_6_0/qrc/rcbest/qrcTechFile
+#found CAPMODEL /opt/cadence/gpdk045/gpdk045_v_6_0/qrc/rcworst/qrcTechFile
+#found RESMODEL /opt/cadence/gpdk045/gpdk045_v_6_0/qrc/rcbest/qrcTechFile 25.000000 
+#found RESMODEL /opt/cadence/gpdk045/gpdk045_v_6_0/qrc/rcworst/qrcTechFile 25.000000 
+#number model r/c [2,2] [22,1584] read
+#0 rcmodel(s) requires rebuild
+#Build RC corners: cpu time = 00:00:01, elapsed time = 00:00:01, memory = 1524.52 (MB), peak = 1814.80 (MB)
+#Start init net ripin tree building
+#Finish init net ripin tree building
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 0.00 (MB)
+#Total memory = 1532.77 (MB)
+#Peak memory = 1814.80 (MB)
+#Length limit = 200 pitches
+#opt mode = 2
+#Start routing data preparation on Sat Apr 25 17:29:12 2026
+#
+#Minimum voltage of a net in the design = 0.000.
+#Maximum voltage of a net in the design = 1.100.
+#Voltage range [0.000 - 1.100] has 41242 nets.
+#Voltage range [0.900 - 1.100] has 1 net.
+#Voltage range [0.000 - 0.000] has 1 net.
+#Regenerating Ggrids automatically.
+#Auto generating G-grids with size=15 tracks, using layer Metal3's pitch = 0.19000.
+#Using automatically generated G-grids.
+#Done routing data preparation.
+#cpu time = 00:00:01, elapsed time = 00:00:01, memory = 1532.96 (MB), peak = 1814.80 (MB)
+#Start routing data preparation on Sat Apr 25 17:29:12 2026
+#
+#Minimum voltage of a net in the design = 0.000.
+#Maximum voltage of a net in the design = 1.100.
+#Voltage range [0.000 - 1.100] has 41242 nets.
+#Voltage range [0.900 - 1.100] has 1 net.
+#Voltage range [0.000 - 0.000] has 1 net.
+#Regenerating Ggrids automatically.
+#Auto generating G-grids with size=15 tracks, using layer Metal3's pitch = 0.19000.
+#Using automatically generated G-grids.
+#Done routing data preparation.
+#cpu time = 00:00:01, elapsed time = 00:00:01, memory = 1532.96 (MB), peak = 1814.80 (MB)
+#Init Design Signature = 1658828669
+#Start generate extraction boxes.
+#
+#Extract using 30 x 30 Hboxes
+#14x4 initial hboxes
+#Use area based hbox pruning.
+#0/0 hboxes pruned.
+#Complete generating extraction boxes.
+#Extract 25 hboxes with single thread on machine with  Xeon 3.20GHz 22528KB Cache 64CPU...
+#Process 0 special clock nets for rc extraction
+#0 temporary NDR added
+#Total 40524 nets were built. 1260 nodes added to break long wires. 0 net(s) have incomplete routes.
+#Run Statistics for Extraction:
+#   Cpu time = 00:00:23, elapsed time = 00:00:23 .
+#   Increased memory =   144.50 (MB), total memory =  1679.67 (MB), peak memory =  1814.80 (MB)
+#Simplify RC tree: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1647.08 (MB), peak = 1814.80 (MB)
+#RC Statistics: 231552 Res, 126425 Ground Cap, 12609 XCap (Edge to Edge)
+#RC V/H edge ratio: 0.44, Avg V/H Edge Length: 3767.20 (128783), Avg L-Edge Length: 7782.06 (79978)
+#Start writing rcdb into /tmp/innovus_temp_2528956_vlsicad.ecs.umass.edu_mdnguye0_pCM4Xl/nr2528956_vD7ZOP.rcdb.d
+#Finish writing rcdb with 273878 nodes, 233354 edges, and 33368 xcaps
+#cpu time = 00:00:01, elapsed time = 00:00:02, memory = 1644.94 (MB), peak = 1814.80 (MB)
+Restoring parasitic data from file '/tmp/innovus_temp_2528956_vlsicad.ecs.umass.edu_mdnguye0_pCM4Xl/nr2528956_vD7ZOP.rcdb.d' ...
+Reading RCDB with compressed RC data.
+Reading RCDB with compressed RC data.
+Begin read_parasitics... (cpu: 0:00:00.0 real: 0:00:00.0 mem: 1708.156M)
+Following multi-corner parasitics specified:
+	/tmp/innovus_temp_2528956_vlsicad.ecs.umass.edu_mdnguye0_pCM4Xl/nr2528956_vD7ZOP.rcdb.d (rcdb)
+Reading RCDB with compressed RC data.
+		Cell tile has rcdb /tmp/innovus_temp_2528956_vlsicad.ecs.umass.edu_mdnguye0_pCM4Xl/nr2528956_vD7ZOP.rcdb.d specified
+Cell tile, hinst 
+Reading RCDB with compressed RC data.
+Done read_parasitics... (cpu: 0:00:00.9 real: 0:00:01.0 mem: 1708.156M)
+#
+#Restore RCDB.
+#
+#Complete tQuantus RC extraction.
+#Cpu time = 00:00:35
+#Elapsed time = 00:00:35
+#Increased memory = 150.90 (MB)
+#Total memory = 1646.33 (MB)
+#Peak memory = 1814.80 (MB)
+#
+#1260 inserted nodes are removed
+#Final Design Signature = 1658828669
+#Start Inst Signature (0)
+#Start Net Signature (59323737)
+#Calculate SNet Signature in MT (93688615)
+#Run time and memory report for RC extraction:
+#RC extraction running on  Xeon 3.20GHz 22528KB Cache 64CPU.
+#Run Statistics for snet signature:
+#   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+#   Increased memory =    -0.37 (MB), total memory =  1522.52 (MB), peak memory =  1814.80 (MB)
+#Run Statistics for net signature:
+#   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+#   Increased memory =     0.00 (MB), total memory =  1522.88 (MB), peak memory =  1814.80 (MB)
+#Run Statistics for inst signature:
+#   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+#   Increased memory =     0.00 (MB), total memory =  1522.88 (MB), peak memory =  1814.80 (MB)
+Starting delay calculation for Setup views
+AAE DB initialization (MEM=1715.73 CPU=0:00:00.0 REAL=0:00:00.0) 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: tile
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Start delay calculation (fullDC) (1 T). (MEM=1736.56)
+Reading RCDB with compressed RC data.
+Total number of fetched objects 41167
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+AAE_INFO-618: Total number of nets in the design is 41244,  99.9 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1786.69 CPU=0:00:07.2 REAL=0:00:08.0)
+End delay calculation (fullDC). (MEM=1786.69 CPU=0:00:07.9 REAL=0:00:08.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1778.7M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:00.0, MEM = 1778.7M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (1 T). (MEM=1720.81)
+Glitch Analysis: View worst_1v0 -- Total Number of Nets Skipped = 16. 
+Glitch Analysis: View worst_1v0 -- Total Number of Nets Analyzed = 41167. 
+Total number of fetched objects 41167
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+AAE_INFO-618: Total number of nets in the design is 41244,  0.3 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1759.49 CPU=0:00:00.3 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=1759.49 CPU=0:00:00.4 REAL=0:00:01.0)
+*** Done Building Timing Graph (cpu=0:00:11.7 real=0:00:12.0 totSessionCpu=0:16:31 mem=1759.5M)
+
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
+Setup views included:
+ worst_1v0 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.129  |  0.129  |  0.991  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|  5758   |  5680   |  5758   |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 53.950%
+Total number of glitch violations: 0
+------------------------------------------------------------
+Reported timing to dir ./timingReports
+Total CPU time: 55.53 sec
+Total Real time: 56.0 sec
+Total Memory Usage: 1753.496094 Mbytes
+Reset AAE Options
