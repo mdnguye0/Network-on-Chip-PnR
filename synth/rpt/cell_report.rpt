@@ -1,0 +1,111 @@
+ 
+****************************************
+Report : cell
+Design : tile
+Version: T-2022.03-SP4
+Date   : Wed Dec 10 11:30:07 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+CPU                       processor                       13161.5283
+                                                                    h, n
+CPU2Router                syn_fifo_1                      1427.8500 h, n
+PacketArrived_reg         DFFHQX1         slow_vdd1v0       5.4720  n
+Router2CPU                syn_fifo_6                      1427.8500 h, n
+U21                       NOR2BX1         slow_vdd1v0       1.3680  
+U22                       AO22X1          slow_vdd1v0       2.7360  
+U23                       AO22X1          slow_vdd1v0       2.7360  
+U24                       AO22X1          slow_vdd1v0       2.7360  
+U25                       AO22X1          slow_vdd1v0       2.7360  
+U26                       AO22X1          slow_vdd1v0       2.7360  
+U27                       AO22X1          slow_vdd1v0       2.7360  
+U28                       AO22X1          slow_vdd1v0       2.7360  
+U29                       AO22X1          slow_vdd1v0       2.7360  
+U30                       NOR2BX1         slow_vdd1v0       1.3680  
+U31                       NOR2BX1         slow_vdd1v0       1.3680  
+U32                       AO22X1          slow_vdd1v0       2.7360  
+U33                       AO22X1          slow_vdd1v0       2.7360  
+U34                       AO22X1          slow_vdd1v0       2.7360  
+U35                       AO22X1          slow_vdd1v0       2.7360  
+U36                       NOR2BX1         slow_vdd1v0       1.3680  
+U37                       NOR2BX1         slow_vdd1v0       1.3680  
+U38                       AO22X1          slow_vdd1v0       2.7360  
+U39                       NOR2BX1         slow_vdd1v0       1.3680  
+U40                       NOR2BX1         slow_vdd1v0       1.3680  
+U41                       NOR2BX1         slow_vdd1v0       1.3680  
+U42                       NOR2BX1         slow_vdd1v0       1.3680  
+U43                       NOR2BX1         slow_vdd1v0       1.3680  
+U44                       NOR2BX1         slow_vdd1v0       1.3680  
+U45                       NOR2BX1         slow_vdd1v0       1.3680  
+U46                       NOR2BX1         slow_vdd1v0       1.3680  
+U47                       NOR2BX1         slow_vdd1v0       1.3680  
+U48                       NOR2BX1         slow_vdd1v0       1.3680  
+U49                       AO22X1          slow_vdd1v0       2.7360  
+U50                       NOR2BX1         slow_vdd1v0       1.3680  
+U51                       NOR2BX1         slow_vdd1v0       1.3680  
+U52                       NOR2BX1         slow_vdd1v0       1.3680  
+U53                       NOR2BX1         slow_vdd1v0       1.3680  
+U54                       NOR2BX1         slow_vdd1v0       1.3680  
+U55                       NOR2BX1         slow_vdd1v0       1.3680  
+U56                       NOR2BX1         slow_vdd1v0       1.3680  
+U57                       NOR2BX1         slow_vdd1v0       1.3680  
+U58                       NOR2BX1         slow_vdd1v0       1.3680  
+U59                       NOR2BX1         slow_vdd1v0       1.3680  
+U60                       AO22X1          slow_vdd1v0       2.7360  
+U61                       OAI2BB1X1       slow_vdd1v0       1.7100  
+U62                       NOR2BX1         slow_vdd1v0       1.3680  
+U63                       AO22X1          slow_vdd1v0       2.7360  
+U64                       AO22X1          slow_vdd1v0       2.7360  
+U65                       AO22X1          slow_vdd1v0       2.7360  
+U66                       AO22X1          slow_vdd1v0       2.7360  
+U67                       AO22X1          slow_vdd1v0       2.7360  
+U68                       AO22X1          slow_vdd1v0       2.7360  
+U69                       AO22X1          slow_vdd1v0       2.7360  
+U70                       AO22X1          slow_vdd1v0       2.7360  
+U71                       AO22X1          slow_vdd1v0       2.7360  
+U72                       AO22X1          slow_vdd1v0       2.7360  
+U73                       AO22X1          slow_vdd1v0       2.7360  
+U74                       AO22X1          slow_vdd1v0       2.7360  
+U75                       AO22X1          slow_vdd1v0       2.7360  
+U76                       AO22X1          slow_vdd1v0       2.7360  
+U77                       AO22X1          slow_vdd1v0       2.7360  
+U78                       AO22X1          slow_vdd1v0       2.7360  
+U79                       INVX1           slow_vdd1v0       0.6840  
+U80                       OAI21XL         slow_vdd1v0       1.7100  
+U81                       BUFX2           slow_vdd1v0       1.7100  
+U82                       INVXL           slow_vdd1v0       0.6840  
+U83                       INVX2           slow_vdd1v0       1.0260  
+U84                       AND2X1          slow_vdd1v0       1.3680  
+U85                       AND2X1          slow_vdd1v0       1.3680  
+U86                       AND2X1          slow_vdd1v0       1.3680  
+U87                       AND2X1          slow_vdd1v0       1.3680  
+U88                       AND2X1          slow_vdd1v0       1.3680  
+U89                       AND2X1          slow_vdd1v0       1.3680  
+U90                       AND2X1          slow_vdd1v0       1.3680  
+U91                       AND2X1          slow_vdd1v0       1.3680  
+U92                       NOR2X1          slow_vdd1v0       1.0260  
+U93                       INVX1           slow_vdd1v0       0.6840  
+U94                       INVX1           slow_vdd1v0       0.6840  
+U95                       NOR2X1          slow_vdd1v0       1.0260  
+U96                       NOR2X1          slow_vdd1v0       1.0260  
+U97                       AOI32X1         slow_vdd1v0       2.3940  
+U98                       INVX1           slow_vdd1v0       0.6840  
+U99                       INVX1           slow_vdd1v0       0.6840  
+U100                      TIEHI           slow_vdd1v0       1.0260  
+dmem                      memory_0                        28692.0906
+                                                                    h, n
+imem                      memory_1                        28745.4426
+                                                                    h, n
+router_inst               router                          8793.1622 h, n
+valid_data_reg            DFFHQX1         slow_vdd1v0       5.4720  n
+--------------------------------------------------------------------------------
+Total 88 cells                                            82406.9538
+1
